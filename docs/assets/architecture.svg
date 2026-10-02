@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" fill="none">
+  <rect width="1200" height="520" rx="20" fill="#0c0e0b"/>
+  <rect x="1" y="1" width="1198" height="518" rx="19" stroke="#31382f"/>
+
+  <text x="48" y="52" fill="#d7a15a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.8">RIFQ OPS DESK</text>
+  <text x="48" y="90" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="28" font-weight="600">How a sample cycle moves</text>
+  <text x="48" y="120" fill="#a3aa9e" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15">Fixture roster. No model call. A reply exists only after QA accepts the claims.</text>
+
+  <rect x="48" y="168" width="200" height="96" rx="12" fill="#141714" stroke="#d7a15a"/>
+  <text x="68" y="204" fill="#8b9384" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.6">CONSOLE</text>
+  <text x="68" y="232" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Ops Desk UI</text>
+
+  <path d="M248 216 H292" stroke="#d7a15a" stroke-width="1.5"/>
+  <path d="M286 210 L298 216 L286 222" stroke="#d7a15a" stroke-width="1.5" fill="none"/>
+
+  <rect x="300" y="168" width="230" height="96" rx="12" fill="#141714" stroke="#31382f"/>
+  <text x="320" y="204" fill="#8b9384" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.6">NEXT.JS</text>
+  <text x="320" y="232" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Route handlers</text>
+
+  <path d="M530 216 H574" stroke="#d7a15a" stroke-width="1.5"/>
+  <path d="M568 210 L580 216 L568 222" stroke="#d7a15a" stroke-width="1.5" fill="none"/>
+
+  <rect x="582" y="168" width="250" height="96" rx="12" fill="#1c211c" stroke="#d7a15a"/>
+  <text x="602" y="204" fill="#8b9384" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.6">POLICY</text>
+  <text x="602" y="232" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Orchestration engine</text>
+
+  <path d="M832 216 H876" stroke="#31382f" stroke-width="1.5"/>
+  <path d="M870 210 L882 216 L870 222" stroke="#31382f" stroke-width="1.5" fill="none"/>
+
+  <rect x="884" y="168" width="268" height="96" rx="12" fill="#141714" stroke="#31382f"/>
+  <text x="904" y="204" fill="#8b9384" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.6">DATA</text>
+  <text x="904" y="232" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600">Fixture scenarios</text>
+
+  <path d="M707 264 V320" stroke="#31382f" stroke-width="1.5"/>
+  <path d="M168 320 H1038" stroke="#31382f" stroke-width="1.5"/>
+  <path d="M168 320 V360" stroke="#31382f" stroke-width="1.5"/>
+  <path d="M606 320 V360" stroke="#31382f" stroke-width="1.5"/>
+  <path d="M1038 320 V360" stroke="#31382f" stroke-width="1.5"/>
+
+  <rect x="48" y="360" width="240" height="78" rx="12" fill="#141714" stroke="#31382f"/>
+  <text x="68" y="392" fill="#d7a15a" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.5">ROUTE</text>
+  <text x="68" y="416" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Task router - never auto-sends</text>
+
+  <rect x="486" y="360" width="240" height="78" rx="12" fill="#141714" stroke="#31382f"/>
+  <text x="506" y="392" fill="#d7a15a" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.5">CHECK</text>
+  <text x="506" y="416" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Claim verifier - shelf only</text>
+
+  <rect x="924" y="360" width="228" height="78" rx="12" fill="#141714" stroke="#9dcb9a"/>
+  <text x="944" y="392" fill="#9dcb9a" font-family="ui-monospace, monospace" font-size="11" letter-spacing="1.5">TRACE</text>
+  <text x="944" y="416" fill="#f3f0e7" font-family="ui-sans-serif, system-ui, sans-serif" font-size="14">Timeline back to the desk</text>
+
+  <text x="48" y="484" fill="#8b9384" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13">Rifq is a trading brand of Saba Technologies Ltd. Sample cycle only.</text>
+</svg>

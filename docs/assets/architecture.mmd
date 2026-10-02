@@ -1,0 +1,8 @@
+flowchart LR
+  UI["Ops Desk UI"] --> API["/api/desk and /api/runs"]
+  API --> Engine["Orchestration engine"]
+  Engine --> Router["Task router"]
+  Engine --> Verifier["Claim verifier"]
+  Engine --> Fixtures["Fixture scenarios"]
+  Engine --> Trace["Trace timeline"]
+  Trace --> UI
