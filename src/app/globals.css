@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #0c0e0b;
+  --color-panel: #141714;
+  --color-panel-2: #1c211c;
+  --color-line: #31382f;
+  --color-paper: #f3f0e7;
+  --color-muted: #a3aa9e;
+  --color-faint: #8b9384;
+  --color-brass: #d7a15a;
+  --color-brass-2: #f0d3a4;
+  --color-mint: #9dcb9a;
+  --color-danger: #e3948c;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  background: var(--color-ink);
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(900px 420px at 12% -10%, rgba(215, 161, 90, 0.14), transparent 55%),
+    radial-gradient(700px 380px at 100% 0%, rgba(157, 203, 154, 0.06), transparent 50%),
+    var(--color-ink);
+  color: var(--color-paper);
+}
+
+body::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(243, 240, 231, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(243, 240, 231, 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse at 50% 0%, black, transparent 78%);
+}
+
+::selection {
+  background: rgba(215, 161, 90, 0.35);
+  color: var(--color-paper);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.trace-in {
+  animation: rise 280ms ease-out;
+}
+
+@keyframes lamp {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.lamp-live {
+  animation: lamp 1.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trace-in,
+  .lamp-live {
+    animation: none;
+  }
+}
